@@ -414,3 +414,38 @@ html{
     top: 15rem;
     left: 10rem;
 }
+
+.footer-section{
+    padding: 18px 0 16px;
+    overflow: hidden;
+    background: #252525;
+}
+.footer-menu{
+    list-style: none;
+    float: right;
+}
+.footer-menu li{
+    display: inline;
+}
+.footer-menu li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #aeaeae;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.footer-menu li:hover a{
+    text-decoration: none;
+}
+.copyright{
+    float: left;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #aeaeae;
+    font-size: 14px;
+}
+.card_overlay{
+    z-index: 1;
+}
